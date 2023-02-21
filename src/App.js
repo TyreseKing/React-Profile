@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Header from "./components/Header"
 import About from "./pages/About"
-import Contact from "./pages/Contact"
+// import Contact from "./pages/Contact"
 import Portfolio from "./pages/Portfolio"
 import Resume from "./pages/Resume"
 import Footer from "./components/Footer"
@@ -14,9 +14,9 @@ function App() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }

@@ -12,6 +12,7 @@
 
 .header h1 {
   margin: 0;
+  color:  #8016d6;
 }
 
 .header ul {
@@ -27,6 +28,17 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.header ul li a {
+  text-decoration: none;
+  color:  #8016d6;
+}
+
+.header ul li a:hover {
+color: #dfdfdf;
+transition: .2s;
+}
+
 
 /* FOOTER */
 

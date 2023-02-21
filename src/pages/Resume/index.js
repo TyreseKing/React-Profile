@@ -1,6 +1,6 @@
 function Resume() {
     return (
-        <div>Resume</div>
+        <div><h1>Resume</h1></div>
     )
 }
 
