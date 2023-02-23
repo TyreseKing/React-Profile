@@ -6,8 +6,13 @@ import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Resume from "./pages/Resume"
 import Footer from "./components/Footer"
+// import background from "../src/assets/gaqss5hgbny81.png";
 
 function App() {
+  // <div style={{
+  //   backgroundImage: `url(${background})`,
+  //   backgroundSize: "cover"
+  // }}></div>
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
