@@ -1,4 +1,4 @@
-import Me from '../../assets/Snapchat-1401546064 (1).jpg'
+import Me from '../../assets/Snapchat-1401546064 (1) - Copy.jpg'
 
 
 
@@ -32,7 +32,7 @@ function Aboutme() {
       </div>
       <div className="container">
         <div className="card col imgCard" styles={styles.card}>
-          <img src={Me} alt="educationImg" className='meIMG'></img>
+          <img src={Me} alt="tyresekingImg" className='meIMG'></img>
         </div>
         <div className="card col" style={styles.homePgHeader}>
           <div className="card-body">
